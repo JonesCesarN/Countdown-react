@@ -2,7 +2,7 @@ import BottonImg from "./assets/BottonImg";
 import Rocket from "./assets/Rocket";
 import TopImg from "./assets/TopImg";
 import { add, intervalToDuration } from 'date-fns'
-import { ButtonHTMLAttributes, FormEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function date(date: string) {
   return <span className="text-xs lg:text-[15px] text-txt-color font-light">{date}</span>
